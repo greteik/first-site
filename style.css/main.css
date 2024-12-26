@@ -15,6 +15,8 @@ a {
 body {
     font-family: "Inter", serif;
     color: #000;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 
@@ -24,12 +26,24 @@ body {
     padding: 15px;
 }
 
-ul {
-    list-style: none; /* убирает точки */
-  }
 
-.nav-menu {
+.header-nav {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
+    justify-content: space-between;
+}
+
+.nav-list-row {
+    column-gap: 35px;
+    display: flex;
+}
+
+.nav-list-item {
+    list-style: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 173%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
